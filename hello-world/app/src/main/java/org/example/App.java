@@ -7,7 +7,6 @@ public class App {
 
     public static void main(String[] args) {
 
-
         // tipos básicos
         // int - números inteiros
         // double  - números decimais
@@ -16,23 +15,22 @@ public class App {
         // sintaxe de criação
         // tipo nome = atribuição
 
-
         // operadores matematicos
         // + ( soma )
         // - ( subtração )
         // * ( multiplição )
         // / ( divisão )
 
+        // inteiro
         int x = 3;
         int y = 4;
         int z = x + y;
         System.out.println("Resultado: " + z );
 
+        // double
         double w = 30.3;
-        double k = w / ( x + y );
-
+        double k = w / ( x + y ); // operações entre double e inteiro gera double
         System.out.println("Resultado: " + k);
-
 
         // maximo e minimo do int no java ( 32 bits )
         int m = Integer.MAX_VALUE;
