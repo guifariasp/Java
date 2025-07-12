@@ -6,7 +6,6 @@ package org.example;
 public class App {
 
     public static void main(String[] args) {
-
         // tipos básicos
         // int - números inteiros
         // double  - números decimais
