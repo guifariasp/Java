@@ -2,4 +2,4 @@
 
 
 ### todo:
- - [] the simple hello world (gradle project in intellij)
+ - `[]` the simple hello world (gradle project in intellij)
