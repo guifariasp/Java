@@ -4,11 +4,52 @@
 package org.example;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+
+
+        // tipos básicos
+        // int - números inteiros
+        // double  - números decimais
+        // String -- texto
+
+        // sintaxe de criação
+        // tipo nome = atribuição
+
+
+        // operadores matematicos
+        // + ( soma )
+        // - ( subtração )
+        // * ( multiplição )
+        // / ( divisão )
+
+        int x = 3;
+        int y = 4;
+        int z = x + y;
+        System.out.println("Resultado: " + z );
+
+        double w = 30.3;
+        double k = w / ( x + y );
+
+        System.out.println("Resultado: " + k);
+
+
+        // maximo e minimo do int no java ( 32 bits )
+        int m = Integer.MAX_VALUE;
+        int n = Integer.MIN_VALUE;
+
+        System.out.println("Maior valor: " + m);
+        System.out.println("Menor valor: " + n);
+
+        // maximo e minimo do long no java ( 64 bits )
+        long lm = Long.MAX_VALUE;
+        long ln = Long.MIN_VALUE;
+
+        System.out.println("Maior valor: " + lm);
+        System.out.println("Menor valor: " + ln);
+
+        // texto
+        String nome = "Guia";
+        System.out.println("Nome: " + nome);
     }
 }
